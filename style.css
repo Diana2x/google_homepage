@@ -40,6 +40,7 @@ body {
 }
 .navigation li a:hover{
     cursor: pointer;
+    text-decoration: underline;
 }
 .navimage {
     border-radius: 50%;
