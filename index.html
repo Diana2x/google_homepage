@@ -1,19 +1,82 @@
 <!DOCTYPE html>
 <html lang="eng"> 
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
         <meta charset="utf-8" />
-    <title> <img src="https://image.similarpng.com/very-thumbnail/2020/12/Illustration-of-Google-icon-on-transparent-background-PNG.png">Google</title>
-     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+     <link rel="icon" type="image/png" href="images/title-logo.png">
+     <title>Google</title>
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
+    <body>
+    <!-- NAVBAR-->
+    <header>
+    <navbar  class="navigation">
+        <ul class="nav-list">
+            <li>
+               <a href="http://gmail.com">Gmail</a> 
+            </li>
+            <li>
+                <a href="https://www.google.nl/imghp?hl=en&tab=ri&ogbl">Images</a>
+            </li>
+            <li>
+                <img class="navimage" width="40" style="vertical-align:middle" src="images/title-logo.png">
+            </li>
+            <li>
+                <img class="navimage" width="40" style="vertical-align:middle" src="images/userimage.jpg">
+            </li>
+        </ul>
+    </navbar>
+    </header>
+<!-- SEARCH BAR / MAIN PAGE-->
+<div  class="center">
+    <div class="google-logo">
+        <img src="images/googlelogo_color_272x92dp.png">
+    </div>
 
+    <div id="search">
+        <i id="magnifier-glas" class="fa fa-search" aria-hidden="true"></i>
+        <input type="text" class="searchGoogle" placeholder="Search Google">
+        <i id="microphone" class="fa fa-microphone" aria-hidden="true"></i>
+    </div>
 
+    <div id="btn">
+        <button id="btn1"  type="button">Google Search</button>
+        <button id="btn2"  type="button">I'm taking a guess</button>
+    </div>
 
-
-
-
-
-<!-- SEARCH BAR-->
-    <i class="fa fa-search" aria-hidden="true"></i>
-    <i class="fa fa-microphone" aria-hidden="true"></i>
+    <div id="text">
+        <p>Google offered in: <a id="language" href="#">English</a>  <a id="language" href="#">Español</a>  <a id="language" href="#">Dutch</a> </p>
+    </div>
+</div>   
+<!--FOOTER-->
+<footer>
+        <ul class="footer-left">
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li> 
+                <a href="#">Advertising</a>
+            </li>
+            <li>
+                <a href="#">Business</a>
+            </li>
+            <li>
+                <a href="#">How Search works</a>
+            </li>
+        </ul>
+        <ul class="footer-right">
+            <li>
+                <a href="#">Privacy</a>
+            </li>
+            <li> 
+                <a href="#">Terms</a>
+            </li>
+            <li>
+                <a href="#">Settings</a>
+            </li>
+        </ul>
+</footer>
+</body>
 </html>

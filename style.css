@@ -1,0 +1,54 @@
+:root{
+    --border-seperation: red; 
+    --background-color: grey;
+    --font-colors: black; 
+    --highlight-color: lightpink; 
+}
+
+body {
+    background-color: var(--background-color);
+    font-size: 1em;
+    width: 100%;
+    max-width: 3000px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation {
+    list-style: none;
+    overflow: hidden;
+    border-style: solid;
+    width: 100%;
+    background-color: white;
+    height: 100px;
+    display: block;
+    text-align: right;
+    border-style: solid;
+    justify-content: center;
+}
+
+
+.navigation li {
+    display: inline-block; 
+
+}
+.navigation li a {  
+    padding: 10px;
+    text-decoration: none;
+    color: var(--font-colors);
+    justify-content: center;
+}
+.navigation li a:hover{
+    cursor: pointer;
+}
+.navimage {
+    border-radius: 50%;
+    margin-right: 1em;
+    border: 5px solid transparent;
+}
+.navimage:hover {
+    border-color: #dcdcdc;
+    cursor: pointer;
+
+}
+
