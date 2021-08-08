@@ -1,10 +1,4 @@
-Welcome to my first project
+This is the FFirst Project from TOP. 
+Google Page replica. 
 
-this is a basic google page replica. 
-
-trying to work on html and css with a little twist of my own style. 
-
-
-Good Luck to me! 
-
-Diana. 
+There is a number of issues to bbe fixed. 
