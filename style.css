@@ -34,10 +34,10 @@ header > nav {
   cursor: pointer;
 }
 
-a {
+header nav a {
   text-decoration: none;
-  color: black;
   margin: 10px;
+  color: black;
 }
 a:hover {
   text-decoration: underline;
@@ -103,6 +103,11 @@ a:hover {
   cursor: pointer;
 }
 
+footer nav a {
+  color: #727070;
+  text-decoration: none;
+  margin: 10px;
+}
 .bottom {
   justify-content: space-between !important;
   position: fixed;
@@ -117,11 +122,13 @@ a:hover {
   display: flex;
   justify-self: start;
   padding-left: 20px;
+  font-size: 1.1em;
 }
 
 .footer-right {
   margin-right: 20px;
   justify-content: flex-end;
+  font-size: 1.1em;
 }
 
 @media (max-width: 630px) {
