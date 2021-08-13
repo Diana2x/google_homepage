@@ -20,17 +20,16 @@ nav {
 }
 
 .navigation {
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .navimage {
   border-radius: 50%;
-  margin-left: 12px;
+  margin-left: 10px;
 }
 
 .navimage:hover {
   box-shadow: 0 0 15px 0 #888888;
-  /* border: 2px solid #c8c8c8;  --> This makes my hover take more space, why? */
   cursor: pointer;
 }
 
